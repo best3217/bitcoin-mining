@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.progress {
+    position: relative;
+    height: 25px;
+
+    .percent {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        font-weight: 700;
+        font-size: 18px;
+        color: white;
+        text-shadow: 1px 1px 6px black;
+    }
+}
